@@ -3,7 +3,7 @@ import NewMessage from "./NewMessage";
 
 function App() {
   return (
-    <div>
+    <div className="p-4">
       <Hello />
       <NewMessage />
       <Hello />
