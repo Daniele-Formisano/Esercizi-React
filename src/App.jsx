@@ -1,5 +1,6 @@
 import Hello from "./Hello";
 import NewMessage from "./NewMessage";
+import Welcome from "./Welcome";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <NewMessage />
       <Hello />
       <NewMessage />
+      <Welcome name="Daniele" age={20} />
     </div>
   );
 }
