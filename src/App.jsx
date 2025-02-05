@@ -6,9 +6,7 @@ function App() {
   return (
     <div className="p-4">
       <Hello />
-      <NewMessage />
       <Hello />
-      <NewMessage />
       <Welcome name="Daniele" age={20} />
     </div>
   );

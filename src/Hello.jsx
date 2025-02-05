@@ -1,5 +1,10 @@
 import NewMessage from "./NewMessage";
 
 export default function Hello() {
-  return <h2>Hello, Wolrd!</h2>;
+  return (
+    <div>
+      <h2>Hello, Wolrd!</h2>
+      <NewMessage />
+    </div>
+  );
 }
