@@ -1,6 +1,6 @@
 import Hello from "./Hello";
 import NewMessage from "./NewMessage";
-import Welcome from "./Welcome";
+import Welcome from "./ControlledForm/Welcome";
 
 function App() {
   return (

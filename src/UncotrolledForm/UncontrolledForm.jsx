@@ -18,7 +18,9 @@ export default function UncontrolledLogin() {
   function loginWithFormData(event) {
     event.preventDefault();
 
-    const formData = new FormData(event.target);
+    const form = document.querySelector("form");
+
+    const formData = new FormData(form);
 
     const data = {
       username: formData.get("username"),
@@ -42,6 +44,7 @@ export default function UncontrolledLogin() {
         id="formLogin"
         className="bg-blue-500 rounded-xl p-2 text-white"
         type="button"
+        onClick={loginWithFormData}
       >
         FormData Login
       </button>

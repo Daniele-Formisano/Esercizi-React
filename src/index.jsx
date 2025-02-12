@@ -2,14 +2,15 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
-import ControlledForm from "./InteractiveWelcome.jsx";
+import ControlledForm from "./ControlledForm/InteractiveWelcome.jsx";
 import MultipleForm from "./MultipleForm.jsx";
 import ValidatedForm from "./ValidatedForm.jsx";
-import UncontrolledLogin from "./UncontrolledForm.jsx";
-import Login from "./Login.jsx";
+import UncontrolledLogin from "./UncotrolledForm/UncontrolledForm.jsx";
+import Login from "./ControlledForm/Login.jsx";
+import InteractiveWelcome from "./ControlledForm/InteractiveWelcome.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <UncontrolledLogin />
+    <Login onLogin={(data) => console.log(data)} />
   </StrictMode>
 );
