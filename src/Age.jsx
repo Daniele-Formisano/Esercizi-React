@@ -1,3 +1,3 @@
-export default function Age({ age }) {
-  return <p>Your age is {age}.</p>;
+export default function Age({ age, textColor }) {
+  return <p className={textColor}>Your age is {age}.</p>;
 }
