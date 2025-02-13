@@ -8,9 +8,10 @@ import ValidatedForm from "./ValidatedForm.jsx";
 import UncontrolledLogin from "./UncotrolledForm/UncontrolledForm.jsx";
 import Login from "./ControlledForm/Login.jsx";
 import InteractiveWelcome from "./ControlledForm/InteractiveWelcome.jsx";
+import FocusableInput from "./Refs/FocusableInput.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Login onLogin={(data) => console.log(data)} />
+    <FocusableInput />
   </StrictMode>
 );
