@@ -1,13 +1,16 @@
 import Hello from "./Hello";
 import NewMessage from "./NewMessage";
 import Welcome from "./ControlledForm/Welcome";
+import AlertClock from "./Events/Events";
 
 function App() {
+  function handleButtonClick() {
+    const nowDate = new Date();
+    alert(`The current time is ${nowDate.toLocaleTimeString()}`);
+  }
   return (
     <div className="p-4">
-      <Hello />
-      <Hello />
-      <Welcome name="Daniele" age={20} />
+      <AlertClock onButtonClick={handleButtonClick} />
     </div>
   );
 }

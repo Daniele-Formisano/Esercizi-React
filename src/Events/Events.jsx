@@ -1,13 +1,15 @@
-export default function AlertClock() {
-  function handleButtonClick() {
-    const nowDate = new Date();
-    alert(`Adesso sono le ${nowDate.toLocaleTimeString()}`);
-  }
-
+export default function AlertClock({ onButtonClick }) {
   return (
     <div>
-      <p>Clicca il bottone per vedere l'ora attuale!</p>
-      <button onClick={handleButtonClick}>Cliccami!</button>;
+      <p className="font-bold text-2xl">
+        Click the button to show current time!
+      </p>
+      <button
+        className="px-4 py-2 border-2 rounded-xl bg-red-600 text-white"
+        onClick={onButtonClick}
+      >
+        Click me!
+      </button>
     </div>
   );
 }

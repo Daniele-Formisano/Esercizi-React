@@ -9,9 +9,9 @@ import UncontrolledLogin from "./UncotrolledForm/UncontrolledForm.jsx";
 import Login from "./ControlledForm/Login.jsx";
 import InteractiveWelcome from "./ControlledForm/InteractiveWelcome.jsx";
 import FocusableInput from "./Refs/FocusableInput.jsx";
+import DomSample from "./DomSample.jsx";
+import RenderState from "./RenderState.jsx";
+import NotificationApp from "./NotificationApp.jsx";
+import Events from "./Events/Events.jsx";
 
-createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <FocusableInput />
-  </StrictMode>
-);
+createRoot(document.getElementById("root")).render(<App />);
