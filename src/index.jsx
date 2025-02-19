@@ -13,5 +13,7 @@ import DomSample from "./DomSample.jsx";
 import RenderState from "./RenderState.jsx";
 import NotificationApp from "./NotificationApp.jsx";
 import Events from "./Events/Events.jsx";
+import Hello from "./Hello.jsx";
+import HelloLanguage from "./Context.jsx/HelloLanguage.jsx";
 
 createRoot(document.getElementById("root")).render(<App />);
