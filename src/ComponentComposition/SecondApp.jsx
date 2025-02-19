@@ -1,4 +1,4 @@
-import Container from "./ComponentComposition/Container";
+import Container from "./Container";
 
 function SecondApp() {
   return (

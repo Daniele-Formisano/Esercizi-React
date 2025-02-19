@@ -15,6 +15,6 @@ import NotificationApp from "./NotificationApp.jsx";
 import Events from "./Events/Events.jsx";
 import Hello from "./Hello.jsx";
 import HelloLanguage from "./Context.jsx/HelloLanguage.jsx";
-import SecondApp from "./SecondApp.jsx";
+import SecondApp from "./ComponentComposition/SecondApp.jsx";
 
 createRoot(document.getElementById("root")).render(<SecondApp />);
