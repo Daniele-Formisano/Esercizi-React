@@ -12,6 +12,8 @@ export default function Hello() {
   };
 
   return (
-    <h2 className="text-xl font-bold">{messages[language] || messages.en}</h2>
+    <h2 className="text-xl font-bold p-8">
+      {messages[language] || messages.en}
+    </h2>
   );
 }

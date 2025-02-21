@@ -10,8 +10,12 @@ function App() {
   const [language, setLanguage] = useState("en");
   return (
     <LanguageContext.Provider value={language}>
-      <label>Select Language:</label>
-      <select onChange={(e) => setLanguage(e.target.value)} value={language}>
+      <label className="p-4">Select Language:</label>
+      <select
+        className="p-4"
+        onChange={(e) => setLanguage(e.target.value)}
+        value={language}
+      >
         <option value="en">English</option>
         <option value="it">Italian</option>
         <option value="es">Spanish</option>
