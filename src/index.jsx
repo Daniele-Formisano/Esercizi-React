@@ -19,5 +19,12 @@ import SecondApp from "./ComponentComposition/SecondApp.jsx";
 import UsersWithoutCallback from "./UsersWithoutCallback.jsx";
 import MemoUseCase from "./MemoUseCase.jsx";
 import TodoListApp from "./TodoListApp.jsx";
+import GithubUser from "./GithubUser/GithubUser.jsx";
+import Counter from "./React Router/Counter.jsx";
+import Form from "./CustomHooks/Form.jsx";
+import SWR from "./SWR/SWR.jsx";
+import NewApp from "./SWR/NewApp.jsx";
+import ReactRouter from "./React Router/ReactRouter.jsx";
+import RouterApp from "./React Router/RouterApp.jsx";
 
-createRoot(document.getElementById("root")).render(<TodoListApp />);
+createRoot(document.getElementById("root")).render(<RouterApp />);
