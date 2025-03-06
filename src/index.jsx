@@ -27,5 +27,6 @@ import NewApp from "./SWR/NewApp.jsx";
 import ReactRouter from "./ReactRouter/ReactRouter.jsx";
 import RouterApp from "./ReactRouter/RouterApp.jsx";
 import Counters from "./UseState/Counters.jsx";
+import CounterEffect from "./UseEffect/CounterEffect.jsx";
 
-createRoot(document.getElementById("root")).render(<Counters />);
+createRoot(document.getElementById("root")).render(<CounterEffect />);
