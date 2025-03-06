@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Welcome from "../React Router/Welcome";
+import Welcome from "../ReactRouter/Welcome";
 
 export default function InteractiveWelcome() {
   const [username, setUsername] = useState("");

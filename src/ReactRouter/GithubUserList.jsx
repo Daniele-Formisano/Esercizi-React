@@ -7,8 +7,15 @@ export default function GithubUserList() {
 
   useEffect(() => {
     fetch("https://api.github.com/users")
-      .then((r) => r.json())
-      .then((data) => setUsers(data));
+      .then((r) => {
+        if (r.status === 200) {
+          return r.json();
+        } else {
+          console.log("Si è verificato un errore");
+          return;
+        }
+      })
+      .then((data) => setUsers(data || users));
   }, []);
 
   return (

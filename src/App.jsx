@@ -1,6 +1,6 @@
 import Hello from "./Hello";
 import NewMessage from "./NewMessage";
-import Welcome from "./React Router/Welcome.jsx";
+import Welcome from "./ReactRouter/Welcome.jsx";
 import AlertClock from "./Events/Events";
 import LanguageContext from "./Context.jsx/Context";
 import HelloLanguage from "./Context.jsx/HelloLanguage.jsx";
