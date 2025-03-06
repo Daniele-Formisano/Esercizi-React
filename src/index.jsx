@@ -28,5 +28,6 @@ import ReactRouter from "./ReactRouter/ReactRouter.jsx";
 import RouterApp from "./ReactRouter/RouterApp.jsx";
 import Counters from "./UseState/Counters.jsx";
 import CounterEffect from "./UseEffect/CounterEffect.jsx";
+import MouseClicker from "./HandlingEvents/MouseClicker.jsx";
 
-createRoot(document.getElementById("root")).render(<CounterEffect />);
+createRoot(document.getElementById("root")).render(<MouseClicker />);
