@@ -31,5 +31,6 @@ import CounterEffect from "./UseEffect/CounterEffect.jsx";
 import MouseClicker from "./HandlingEvents/MouseClicker.jsx";
 import ReacApp2 from "./React-App-2/ReactApp2.jsx";
 import RenderColors from "./List/RenderColors.jsx";
+import TodoList from "./TodoList/TodoList.jsx";
 
-createRoot(document.getElementById("root")).render(<RenderColors />);
+createRoot(document.getElementById("root")).render(<TodoList />);
