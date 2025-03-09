@@ -29,5 +29,6 @@ import RouterApp from "./ReactRouter/RouterApp.jsx";
 import Counters from "./UseState/Counters.jsx";
 import CounterEffect from "./UseEffect/CounterEffect.jsx";
 import MouseClicker from "./HandlingEvents/MouseClicker.jsx";
+import ReacApp2 from "./React-App-2/ReactApp2.jsx";
 
-createRoot(document.getElementById("root")).render(<MouseClicker />);
+createRoot(document.getElementById("root")).render(<ReacApp2 />);
