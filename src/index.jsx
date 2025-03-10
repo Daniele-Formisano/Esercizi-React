@@ -35,5 +35,6 @@ import TodoList from "./TodoList/TodoList.jsx";
 import CounterDisplay from "./StylingComponents/CounterDisplay.jsx";
 import GithubUsers from "./GithubUser/GithubUsers.jsx";
 import DisplayFiltereList from "./useCallback-useMemo/DisplayFilteredList.jsx";
+import ReactApp3 from "./ReactApp3/ReactApp3.jsx";
 
-createRoot(document.getElementById("root")).render(<DisplayFiltereList />);
+createRoot(document.getElementById("root")).render(<ReactApp3 />);
