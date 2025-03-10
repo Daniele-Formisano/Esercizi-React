@@ -33,5 +33,6 @@ import ReacApp2 from "./React-App-2/ReactApp2.jsx";
 import RenderColors from "./List/RenderColors.jsx";
 import TodoList from "./TodoList/TodoList.jsx";
 import CounterDisplay from "./StylingComponents/CounterDisplay.jsx";
+import GithubUsers from "./GithubUser/GithubUsers.jsx";
 
-createRoot(document.getElementById("root")).render(<Login />);
+createRoot(document.getElementById("root")).render(<GithubUsers />);
