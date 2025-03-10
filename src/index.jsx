@@ -36,5 +36,6 @@ import CounterDisplay from "./StylingComponents/CounterDisplay.jsx";
 import GithubUsers from "./GithubUser/GithubUsers.jsx";
 import DisplayFiltereList from "./useCallback-useMemo/DisplayFilteredList.jsx";
 import ReactApp3 from "./ReactApp3/ReactApp3.jsx";
+import ReactApp4 from "./ReactApp4/ReactApp4.jsx";
 
-createRoot(document.getElementById("root")).render(<ReactApp3 />);
+createRoot(document.getElementById("root")).render(<ReactApp4 />);
