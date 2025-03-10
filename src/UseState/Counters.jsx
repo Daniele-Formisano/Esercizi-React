@@ -1,5 +1,5 @@
 import { useState } from "react";
-import CounterDisplay from "./CounterDisplay";
+import CounterDisplay from "../StylingComponents/CounterDisplay";
 
 export default function Counters({ initialValue = 0, incrementAmount = 1 }) {
   const [counter, setCounter] = useState(initialValue);

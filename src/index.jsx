@@ -1,12 +1,12 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import "./index.css";
 import App from "./App.jsx";
+import "./StylingComponents/index.css";
 import ControlledForm from "./ControlledForm/InteractiveWelcome.jsx";
 import MultipleForm from "./MultipleForm.jsx";
 import ValidatedForm from "./ValidatedForm.jsx";
 import UncontrolledLogin from "./UncotrolledForm/UncontrolledForm.jsx";
-import Login from "./ControlledForm/Login.jsx";
+import Login from "./StylingComponents/Login.jsx";
 import InteractiveWelcome from "./ControlledForm/InteractiveWelcome.jsx";
 import FocusableInput from "./Refs/FocusableInput.jsx";
 import DomSample from "./DomSample.jsx";
@@ -32,5 +32,6 @@ import MouseClicker from "./HandlingEvents/MouseClicker.jsx";
 import ReacApp2 from "./React-App-2/ReactApp2.jsx";
 import RenderColors from "./List/RenderColors.jsx";
 import TodoList from "./TodoList/TodoList.jsx";
+import CounterDisplay from "./StylingComponents/CounterDisplay.jsx";
 
-createRoot(document.getElementById("root")).render(<TodoList />);
+createRoot(document.getElementById("root")).render(<Login />);

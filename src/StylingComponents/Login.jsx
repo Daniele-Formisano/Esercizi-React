@@ -32,6 +32,11 @@ export default function Login({ onLogin }) {
       remember: false,
     });
   }
+
+  const styledLogin = {
+    backgroundColor: data.password.length < 8 ? "red" : "green",
+  };
+
   return (
     <div>
       <form
@@ -48,6 +53,7 @@ export default function Login({ onLogin }) {
         />
         <label>Password</label>
         <input
+          style={styledLogin}
           className="border-1 w-2xs"
           onChange={handleInputChange}
           type="password"
