@@ -1,5 +1,3 @@
-import { useCounter } from "../CustomHooks/useCounter";
-
 export default function Counter() {
   const { counter, onIncrement, onDecrement, onReset } = useCounter(0);
 

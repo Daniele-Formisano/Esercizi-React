@@ -34,5 +34,6 @@ import RenderColors from "./List/RenderColors.jsx";
 import TodoList from "./TodoList/TodoList.jsx";
 import CounterDisplay from "./StylingComponents/CounterDisplay.jsx";
 import GithubUsers from "./GithubUser/GithubUsers.jsx";
+import DisplayFiltereList from "./useCallback-useMemo/DisplayFilteredList.jsx";
 
-createRoot(document.getElementById("root")).render(<GithubUsers />);
+createRoot(document.getElementById("root")).render(<DisplayFiltereList />);

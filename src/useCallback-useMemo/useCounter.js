@@ -3,17 +3,17 @@ import { useState } from "react";
 export function useCounter({ initialValue = 0 }) {
   const [counter, setCounter] = useState(initialValue);
 
-  function handleIncrement() {
+  const handleIncrement = () => {
     setCounter((c) => c + 1);
-  }
+  };
 
-  function handleDecrement() {
+  const handleDecrement = () => {
     setCounter((c) => c - 1);
-  }
+  };
 
-  function handleReset() {
+  const handleReset = () => {
     setCounter(initialValue);
-  }
+  };
 
   return {
     counter: counter,
